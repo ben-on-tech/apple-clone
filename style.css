@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    align-items: center;
+    
+    color:white;
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    
+    height:40px;
+    position:fixed;
+    z-index: 999;
+}
+header h4{
+    font-size: small;
+    font-weight: 100;
+    margin: 0px;
+    
+}
+section{
+    height:100vh;
+    width:100%;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.section-elements{
+    margin:25%;
+   
+}
+.section-elements .img-desc{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.section1{
+    background-color: rgb(17, 72, 72);
+    top:0px;
+}
+.section2{
+    top:102vh;
+    background-color: rgb(185, 120, 41);
+}
+.section3{
+    top:204vh;
+    background-color: aqua;
+}
+.img-desc{
+    display:flex;
+    gap:5px;
+    width:150px;
+    height:50px;
+    margin:0 25%;
+
+}
+.section4{
+    width:100%;
+    height:300vh;
+    position:absolute;
+    top:305vh;
+    display:flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.section4 div{
+    background-color: rgb(90, 55, 123);
+   
+    width:49%;
+    height:100vh;
+    margin:0.5%
+
+
+}
+.section5{
+    top: 612vh;
+    height:100vh;
+    background-color: rgb(26, 25, 110);
+}
